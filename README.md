@@ -26,7 +26,7 @@ It helps users scan their systems, detect threats, clean junk, and identify susp
 ## 📥 Installation
 
 ```bash
-git clone https://github.com/your-username/ShieldX.git
+git clone https://github.com/virousB310/ShieldX.git
 cd ShieldX
 chmod +x ShieldX.sh
 bash ShieldX.sh
