@@ -1,33 +1,45 @@
-# 🛡️ ShieldX Antivirus
+# ShieldX - SafeDroid Antivirus
 
-**ShieldX** is a lightweight and powerful security tool written in `bash`, designed for **Termux** and **Linux** environments.  
-It helps users scan their systems, detect threats, clean junk, and identify suspicious files and processes.
+![ShieldX Logo](vx.png)  
 
----
-
-## ⚙️ Features
-
-- [1] Scan for `.exe` files  
-- [2] Scan for large files (over 100MB)  
-- [3] Scan for `.sh` files  
-- [4] Detect suspicious file names  
-- [5] Scan the home directory  
-- [6] Full storage scan  
-- [7] Show running processes  
-- [8] Find writable files  
-- [9] Find hidden files  
-- [10] Detect duplicate files  
-- [11] Delete temp/cache files  
-- [12] Custom path scan  
-- [13] Exit
+**ShieldX** is an advanced antivirus and security scanner designed for Linux and Android (Termux) environments.
 
 ---
 
-## 📥 Installation
+## Features
 
-```bash
-git clone https://github.com/virousB310/ShieldX.git
-cd ShieldX
-chmod +x ShieldX.sh
-bash ShieldX.sh
+- Simple login system (username: `@admin`, password: `@admin`)
+- Smart and fast scanning of suspicious and large files in user directories
+- Comprehensive Android APK analysis:
+  - APK decompilation using apktool
+  - Extraction of app permissions
+  - Detection of suspicious IP addresses within the payload
+  - Identification of suspicious filenames (e.g. backdoor, virus, hack)
+  - Organized results saved in dedicated folders with detailed reports
+  - Option to delete suspicious files upon user confirmation
+- Cache clearing to free up space and improve performance
+- System monitoring showing top CPU-consuming processes
+- Interactive, colorful interface with hacker-style green and purple theme
+- Intelligent alerts for suspicious files during scans
+- Simple auto-update check from GitHub
+- Creation of timestamped folders for each scan, storing all files and logs
+- No root required, only necessary permissions requested
 
+---
+
+## Requirements
+
+- Linux or Termux on Android
+- [apktool](https://ibotpeaches.github.io/Apktool/) for APK analysis
+- Bash shell (pre-installed on most Linux distributions)
+- Internet connection for update checks
+
+---
+
+## Installation and Usage
+
+1. Download the script `ShieldX.sh` from the repository.
+2. Make it executable:
+
+   ```bash
+   chmod +x ShieldX.sh
